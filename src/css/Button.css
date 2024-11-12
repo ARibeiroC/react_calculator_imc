@@ -1,0 +1,25 @@
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #f44236;
+    border: none;
+    color: azure;
+    transition: .2s;
+    cursor: pointer;
+    opacity: 0.8;
+    flex: 1;
+    outline: none;
+}
+
+button:active {
+    box-shadow: 2px 2px 4px 2px inset #000000aa;
+    transform: translateY(1px);
+}
+button:hover {
+    opacity: 1;
+}
+
+.clear {
+    background-color: #aaa;
+    color: black;
+}
