@@ -1,5 +1,5 @@
 # react_calculator_imc
-Este projeto é um port da versão javascript vanilla, onde neste utilizei a tecnologia de React com Vite
+Este projeto é um port da versão <a href="https://github.com/ARibeiroC/projeto_imc_calculator_js_nativo" target="_blank">javascript vanilla</a>, onde neste utilizei a tecnologia de React com Vite
 
 ## Tecnologias Usadas
 
