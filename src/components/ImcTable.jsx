@@ -18,13 +18,11 @@ export function ImcTable({data, imc, info, infoClass, resetCalc}){
                 <div className="table_header">
                     <h4>IMC</h4>
                     <h4>Classificação</h4>
-                    <h4>Obesidade</h4>
                 </div>
                 {data.map((item)=> (
                     <div className="table_data" key={item.info}>
                         <p>{item.classification}</p>
                         <p>{item.info}</p>
-                        <p>{item.obesity}</p>
                     </div>
                 ))}
             </div>
